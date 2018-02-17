@@ -1,3 +1,28 @@
 body {
     padding-top: 5rem;
 }
+
+.adjust{
+    width: 250px;
+    margin-bottom:40px;
+}
+
+.adjust1{
+   width: 320px; 
+   height: 70px;
+   margin-bottom:30px;
+}
+
+.sendb{
+    background-color:#2073f9;
+    width:60px;
+    padding:3px;
+    border-radius:7px;
+
+}
+
+.flash{
+    background-color:#ea8383;
+    width:400px;
+    padding:10px;
+}
