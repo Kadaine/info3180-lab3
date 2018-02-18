@@ -2,10 +2,9 @@
 
 {% block main %}
     <form action= "{{url_for('contact')}}"  method="post">
-
+      {{ form.csrf_token }}
       <div>
           <h2 class="borderl"> Contact Form</h2>
-                {{ form.csrf_token }}
           <p>Fill in this form to contact the site owner</p>
       </div>
       <div>
